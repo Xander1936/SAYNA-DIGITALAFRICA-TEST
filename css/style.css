@@ -1,0 +1,317 @@
+* {
+	margin: O;
+	padding: 0;
+}
+ 
+#nav-tabContent {
+    display: auto;
+}
+
+.header {
+    height:auto;
+    width: auto;
+}
+
+#logo {
+    height: auto;
+    width: auto;
+}
+.big_jumbotron {
+    background-image: src("./img/illustration/img1.png");
+}
+
+.masthead {
+    background-size: cover;
+    min-height: fit-content;
+    min-width: fit-content;
+}
+@font-face {
+    font-family: 'Far From Homecoming_regular', 'Montserrat';
+    src: url(font/Typo-FarFromHomecoming.woff2) format('woff2'),
+    src: url(font/Typo-FarFromHomecoming.woff2) format('woff2'),
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* Contact form*/
+
+.contact-form{
+    background: #fff;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    width: 70%;
+}
+.contact-form .form-control{
+    border-radius:1rem;
+    
+}
+
+.contact-image{
+    text-align: center;
+}
+.contact-image img{
+    border-radius: 6rem;
+    width: 11%;
+    margin-top: -3%;
+    transform: rotate(29deg);
+}
+.contact-form form{
+    padding: 14%;
+}
+.contact-form form .row{
+    margin-bottom: -7%;
+}
+.contact-form h3{
+    margin-bottom: 8%;
+    margin-top: -10%;
+    text-align: center;
+    color: #0062cc;
+}
+.contact-form .btnContact {
+    width: 50%;
+    border: none;
+    border-radius: 1rem;
+    padding: 1.5%;
+    background: #dc3545;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+}
+.btnContactSubmit
+{
+    width: 50%;
+    border-radius: 1rem;
+    padding: 1.5%;
+    color: #fff;
+    background-color: #0062cc;
+    border: none;
+    cursor: pointer;
+}
+
+@media (min-width: 768px) {
+    .navbar-brand.abs
+        {
+            position: left;
+            width: 100%;
+            text-align: right;
+        }
+    }
+
+@media (min-width: 768px) {
+        .homepage-slider
+            {
+                position: left;
+                width: 100%;
+                height: auto;
+                text-align: right;
+            }
+}
+ 
+#news1 {
+    display: inline-block;
+    text-align: center;
+}
+#fun {
+    display: inline-block;
+    text-align: left;
+}
+
+#news2 {
+    display: inline-block;
+    text-align: center;
+}
+#guest {
+    display: inline-block;
+    text-align: right;
+}
+
+body {
+    font-size: 17px;
+    line-height: 1.47059;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    font-family: "Montserrat", sans-serif, "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    color: #1d1d1f;
+    font-style: normal;
+    background: -webkit-linear-gradient(left, #0072ff, #00c6ff);
+}
+
+html {
+	font-family: "Montserrat", sans-serif, "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Open Sans", Helvetica, Arial, sans-serif;
+    font-size: 106.25%;
+    quotes: "“" "”";
+
+	-ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    --r-globalnav-height: 44px;
+    --r-globalnav-segmentbar-height: 0;
+    --r-globalnav-viewport-large-min-width: 1024px;
+    --r-globalnav-viewport-large-max-width: 1441px;
+    --r-globalnav-viewport-large-query: (min-width: 1024px);
+    --r-globalnav-viewport-medium-min-width: 768px;
+    --r-globalnav-viewport-medium-max-width: 1023px;
+    --r-globalnav-viewport-medium-query: (max-width: 1023px);
+    --r-globalnav-viewport-small-min-width: 420px;
+    --r-globalnav-viewport-small-max-width: 767px;
+    --r-globalnav-viewport-small-query: (max-width: 767px);
+    --r-globalnav-viewport-xsmall-min-width: 320px;
+    --r-globalnav-viewport-xsmall-max-width: 419px;
+    --r-globalnav-viewport-xsmall-query: (max-width: 419px);
+}
+
+.how-section1{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.how-section1 h4{
+    color: black !important;
+}
+.how-section1 .subheading{
+    color: black !important;
+}
+.how-section1 .row
+{
+    margin-top: 5%;
+}
+.how-img 
+{
+    text-align: center;
+}
+.how-img img{
+    width: 40%;
+}
+card-img-top {
+	height: 300px;
+	padding: .3em;
+}
+h2{
+    text-align:center;
+    padding: 20px;
+  }
+ 
+.news {
+      text-align: center;
+  }
+.card {
+	padding: .3em;
+	margin-left: 4em;
+	margin-right: 4em;
+}
+
+h2{
+    text-align:center;
+    padding: 20px;
+  }
+  
+a {
+	color: black;
+}
+
+.nav-link {
+	color: white;
+    text-align: center;
+}
+
+
+.gener {
+	padding:7px;
+	color: black;
+	background-color: white;
+}
+
+
+.media img {
+    max-width: 400px;
+}
+
+
+/*
+
+anchors are inline so you need ot make them block to go full width
+*/
+.carousel {
+  width: responsive;
+  height: 700px; 
+}
+
+.bg-transparent {
+    background-color: rgb(0,0,0,0.5)!important;
+}
+.partners {
+    border: 2px solid black;
+  }
+footer {
+    background:black !important;
+}
+#footer h5{
+	padding-left: 10px;
+    border-left: 3px solid #eeeeee;
+    padding-bottom: 6px;
+    margin-bottom: 20px;
+    color:#ffffff;
+}
+#footer a {
+    color: #ffffff;
+    text-decoration: none !important;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+#footer ul.social li{
+	padding: 3px 0;
+}
+#footer ul.social li a i {
+    margin-right: 5px;
+	font-size:25px;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.social li:hover a i {
+	font-size:30px;
+	margin-top:-10px;
+}
+#footer ul.social li a,
+#footer ul.quick-links li a{
+	color:#ffffff;
+}
+#footer ul.social li a:hover{
+	color:#eeeeee;
+}
+
+.mt-5 {
+	padding: .3em;
+}
+
+@media (max-width:767px){
+	#footer h5 {
+    padding-left: 0px;
+    border-left: transparent;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+}
+
+}
+
+.social-button .btn {
+	color: black;
+}
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    color: #b11313;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: white;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .5rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
